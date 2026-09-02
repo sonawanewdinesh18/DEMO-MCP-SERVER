@@ -1,0 +1,19 @@
+[project]
+name = "01-demo-mcp-serevr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Dinesh Sonawane", email = "dineshsonawanew2004@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp>=4.0.1",
+]
+
+[project.scripts]
+01-demo-mcp-serevr = "01_demo_mcp_serevr:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
